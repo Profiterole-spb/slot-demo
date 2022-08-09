@@ -58,7 +58,6 @@ export class SlotState extends State {
   enter() {
     super.enter()
     this.data = new SlotData()
-    console.log('slotData', this.data)
     this.screen = new SlotScreen(this.data)
     this.controller = new Slot(this.screen, this.data)
   }

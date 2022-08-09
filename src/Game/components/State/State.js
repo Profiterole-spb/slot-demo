@@ -5,7 +5,7 @@ export default class State {
 
   enter() {
 
-    console.log(`Enter to the ${this.name} state`)
+    // console.log(`Enter to the ${this.name} state`)
   }
 
   handleInput() {
